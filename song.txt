@@ -5,6 +5,10 @@ form the lines
 shield by shield
 
 form the lines 
+<<<<<<< HEAD
 shield by shield
 
 and here
+=======
+shield by shield
+>>>>>>> ed517063bb772c1e12400f69eafabb7cf108a6c0
