@@ -28,3 +28,10 @@ formatting option on .prettierrc file
 #### Gitignore
 In .gitignore we write files or path to files that we dont want to add to github 
 [Gitignore](https://www.atlassian.com/ru/git/tutorials/saving-changes/gitignore)
+
+
+
+More information for learn 
+
+https://flexboxfroggy.com/#uk
+https://cssgridgarden.com/
