@@ -31,7 +31,22 @@ In .gitignore we write files or path to files that we dont want to add to github
 
 
 
-More information for learn 
 
+
+#### More information for learn 
+[SCSS](https://habr.com/ru/post/140612/) - Its classic CSS with more powerful features, and helping for spend less time for developing -  I can to add gulp plugin for supporting
+
+# More
+good practice for projects use 
+[Semantic HTML5 Elements](https://www.freecodecamp.org/news/semantic-html5-elements/)
+dont use size like 81px; - use size by 2 or 5 like 80px for example
+`font-family: "myriad pro", sans-serif;`
+good practice dont use old standart like`float: right;`  `display: table;` for developing 
+try to use more `flex` and `grid` system 
+
+`site for practice `
 https://flexboxfroggy.com/#uk
 https://cssgridgarden.com/
+
+reset.css - reset default styles for browser because different browser has different default styles
+for small projects use fonts from  https://fonts.google.com

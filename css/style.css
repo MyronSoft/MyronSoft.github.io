@@ -17,16 +17,16 @@
 }
 
 .logo {
-    margin-left: 80px; 
-    margin-top: 8px; 
+    margin-left: 80px;
+    margin-top: 8px;
     width: 185px;
     height: 50px;
     display: inline-block;
 }
 
-.logo img { 
-margin-top: -20px;
-margin-left: 250px;
+.logo img {
+    margin-top: -20px;
+    margin-left: 250px;
 }
 
 .menu {
@@ -34,12 +34,14 @@ margin-left: 250px;
     padding-top: 145px;
 }
 
-.selected a, a a:hover {
+.selected a,
+a a:hover {
     text-decoration: none;
     color: #0a122f;
 }
 
-.selected_1 a, a:hover {
+.selected_1 a,
+a:hover {
     text-decoration: underline #de4b12;
     color: #0a122f;
 }
@@ -49,7 +51,7 @@ ul.menu li {
 }
 
 ul.menu li a {
-    font: bold 100% 'myriad pro';
+    font: bold 100% 'Myriad Pro';
     font-size: 25px;
     padding-left: 60px;
 }
@@ -88,11 +90,11 @@ ul.menu li a {
 }
 
 .button a {
-text-decoration: none;
-font-size: 25px;
-color: #ffffff;
-font-weight: bold;
-font-family: serif;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: serif;
 }
 
 .button_2 {
@@ -115,15 +117,15 @@ font-family: serif;
 
 
 .container {
-display: flex;
-min-height: 635px;
-height: 100%;
+    display: flex;
+    min-height: 635px;
+    height: 100%;
 }
 
 .container_description {
     background-color: #1e2842;
     color: #ffffff;
-    font: normal 100% 'myriad pro';
+    font: normal 100% 'Myriad Pro';
     min-width: 420px;
     width: 100%;
     min-height: 635px;
@@ -152,32 +154,32 @@ height: 100%;
     min-height: 635px;
     height: 100%;
     margin-left: -85px;
-    }
-    
-    .container_description_2 {
-        background-color: #1e2842;
-        color: #ffffff;
-        font: normal 100% 'myriad pro';
-        min-width: 420px;
-        width: 100%;
-        min-height: 635px;
-        height: 100%;
-        margin-left: 85px;
-        padding-top: 185px;
-    }
-    
-    .container_description_2 p {
-        display: inline;
-        float: left;
-        width: 40%;
-        margin-top: 17%;
-    }
-    
-    .container_description img {
-        max-height: 16%;
-        max-width: 59%;
-        width: 55%;
-    }
+}
+
+.container_description_2 {
+    background-color: #1e2842;
+    color: #ffffff;
+    font: normal 100% 'Myriad Pro';
+    min-width: 420px;
+    width: 100%;
+    min-height: 635px;
+    height: 100%;
+    margin-left: 85px;
+    padding-top: 185px;
+}
+
+.container_description_2 p {
+    display: inline;
+    float: left;
+    width: 40%;
+    margin-top: 17%;
+}
+
+.container_description img {
+    max-height: 16%;
+    max-width: 59%;
+    width: 55%;
+}
 
 
 
@@ -218,26 +220,26 @@ height: 100%;
 
 
 .text p {
-font: normal 100% 'myriad pro';
-margin-top: 45px;
-margin-left: 13px;
-text-align: center;
-line-height: 140%;
+    font: normal 100% 'Myriad Pro';
+    margin-top: 45px;
+    margin-left: 13px;
+    text-align: center;
+    line-height: 140%;
 }
 
 
 .information {
-height: 500px;
-background: #f6f6f4;
-margin: 50px 40px;
+    height: 500px;
+    background: #f6f6f4;
+    margin: 50px 40px;
 }
 
-.information h1{
-    text-align: center;   
-    font: 100% 'myriad pro';
+.information h1 {
+    text-align: center;
+    font: 100% 'Myriad Pro';
     font-size: 55px;
     color: #1d2842;
-    }
+}
 
 .information p {
     padding-right: 120px;
@@ -245,7 +247,7 @@ margin: 50px 40px;
     margin-top: 40px;
     line-height: 140%;
     text-align: center;
-    }   
+}
 
 .dline {
     text-align: center;
@@ -264,9 +266,9 @@ margin: 50px 40px;
 
 }
 
-.customer h1{
-    text-align: center;   
-    font: 100% 'myriad pro';
+.customer h1 {
+    text-align: center;
+    font: 100% 'Myriad Pro';
     font-size: 55px;
     color: #1d2842;
     margin-bottom: 55px;
@@ -291,12 +293,14 @@ margin: 50px 40px;
 .review {
     width: 100%;
 }
+
 .work {
     margin: auto center;
 }
-.work h1{
-    text-align: center;   
-    font: 100% 'myriad pro';
+
+.work h1 {
+    text-align: center;
+    font: 100% 'Myriad Pro';
     font-size: 55px;
     color: #1d2842;
     margin-top: 110px;
@@ -343,7 +347,7 @@ margin: 50px 40px;
     justify-content: space-around;
     margin-bottom: 160px;
     margin-top: 50px;
-}    
+}
 
 .container_cards img {
     width: 330px;
@@ -369,7 +373,7 @@ margin: 50px 40px;
 }
 
 .card_1 a {
-text-decoration: none;
+    text-decoration: none;
     font-size: 25px;
     color: #ffffff;
     font-weight: bold;
@@ -389,8 +393,6 @@ text-decoration: none;
     padding: 40px 20px 40px 20px;
 }
 
-
-
 footer {
     background: #1e2842;
     color: #f6f6f4;
@@ -399,7 +401,7 @@ footer {
 }
 
 footer h2 {
-    font: bold 100% 'myriad pro';
+    font: bold 100% 'Myriad Pro';
     font-size: 29px;
     padding-bottom: 50px;
 }
@@ -419,33 +421,33 @@ footer h2 {
 .footer_information a {
     text-decoration: none;
     font-size: 22px;
-    font-family: myriad pro;
+    font-family: 'Myriad Pro';
     color: #ffff;
     letter-spacing: 1px;
     line-height: 1.7;
 
 }
 
-.footer_contacts  {
-padding-top: 100px;
-padding-left: 160px;
-text-decoration: none;
-font-size: 22px;
-font-family: myriad pro;
-letter-spacing: 1px;
-line-height: 1.7;
+.footer_contacts {
+    padding-top: 100px;
+    padding-left: 160px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Myriad Pro';
+    letter-spacing: 1px;
+    line-height: 1.7;
 }
 
 .footer_menu {
     display: flex;
-    
-    
+
+
 }
 
 .footer_menu a {
     text-decoration: none;
     font-size: 22px;
-    font-family: myriad pro;
+    font-family: 'Myriad Pro';
     color: #ffff;
     letter-spacing: 1px;
     line-height: 1.7;
@@ -454,10 +456,10 @@ line-height: 1.7;
 
 }
 
-hr { height:1px; background: rgb(15, 10, 10) }
-
-
-
+hr {
+    height: 1px;
+    background: rgb(15, 10, 10)
+}
 
 /*Лінія - початок*/
 .custom-shape-divider-top-1649950587 {
@@ -481,7 +483,3 @@ hr { height:1px; background: rgb(15, 10, 10) }
 .custom-shape-divider-top-1649950587 .shape-fill {
     fill: #222894;
 }
-/*Лінія - кінець*/
-
-
-
