@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    height: 155px;
+}
+.logo {
+    margin: 30px 0 60px 100px;
+}
+.menu__list li {
+    display: inline-block;
+}
+.menu__list input {
+    width: 180px;
+    height: 50px;
+    margin: 50px 0 0 0;
+    border: none;
+    border-radius: 25px;
+    background-color: #c5bfbc;
+}
+.menu__list img {
+    position: absolute;
+    top: 60px;
+    right: 75px;
+}
+.menu__list a {
+    padding-right: 60px;
+    color: #54514e;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.top {
+    padding-top: 215px;
+    height: 957px;
+    background-image: url(../images/fonimage.png);
+    background-size: 100% 100%;
+}
+.top__heading {
+    max-width: 550px;
+    margin-left: 100px;
+}
+.top__content h1 {
+    color: #eeb57c;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+.top__content h5 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 2px;
+    padding: 35px 0 65px 0;
+}
+.top__content  button {
+    width: 220px;
+    height: 50px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    border: none;
+    background: #fffdfc;
+}
+.top__content a {
+    color: #7c6d64;
+    font-size: 20px;
+    font-weight: bold;
+}
+.top__content p {
+    margin-top: 30px;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.container-1 {
+    text-align: center;
+}
+.content h1 {
+    margin-top: 140px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #f6a54f;
+}
+.content p {
+    margin: 0 auto;
+    max-width: 700px;
+    color: #837871;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+@media only screen and (max-width: 900px)  {
+    .cards {
+        display: block;
+    }
+}
+.card {
+    width: 330px;
+    height: 480px;
+    background-color: #837870;
+    margin: 60px 0 60px 0;
+}
+.card img {
+    width: 330px;
+    height: 300px;
+}
+.card h2 {
+    margin-top: 30px;
+    padding-right: 120px;
+}
+.card p {
+    text-align: left;
+    padding-left: 23px;
+}
+.container-1 button {
+    width: 320px;
+    height: 70px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #837870;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    /* margin-bottom: 190px; */ Який відступ краще давати?
+}
+.container-1 button a {
+    text-decoration: none;
+    color: #fff;
+}
+.container-2 {
+    margin-top: 190px;
+    display: flex;
+    background-color: #837870;
+}
+.container-3 {
+    display: flex;
+    background: #edb47c;
+}
+.discount, .promo {
+    width: 50%;
+}
+.discount img, .promo img {
+    width: 100%;
+    height: 100%;
+}
+.discount-text h2, .promo-text h2 {
+    font-size: 3em;
+    margin-top: 200px;
+    padding-left: 60px;
+}
+.discount-text, .promo-text {
+    width: 50%;
+    color: #fff;
+}
+.discount-text button, .promo-text button {
+    width: 320px;
+    height: 70px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #f6a44f;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-left: 60px
+}
+.discount-text p, .promo-text p {
+    max-width: 450px;
+    margin: 60px 0 60px 0;
+    padding-left: 60px;
+}
+
+.hiking {
+    min-height: 560px;
+    background: #9c938d;
+    text-align: center;
+    color: #fff;
+}
+.hiking h2 {
+    font-size: 2.5em;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    padding: 200px 0 60px 0;
+}
+.hiking p {
+    margin: auto;
+    max-width: 890px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.container-4 {
+    height: 575px;
+    background-image: url(../images/7.png);
+    background-size: 100% 100%;
+}
+.container-4 h1 {
+    text-align: right;
+    padding-right: 20%;
+    padding-top: 205px;
+    color: #edb47c;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+.container-4 h2 {
+    color: #54514e;
+    font-size: 4em;
+    text-transform: uppercase;
+    text-align: right;
+    padding-right: 20%;
+}
+.container-5 {
+    display: flex;
+    justify-content: space-around;
+    margin: 150px 0 225px 0;
+}
+.descr {
+    width: 350px;
+}
+.descr h2 {
+    margin-bottom: 30px;
+    color: #edb47c;
+}
+.descr p {
+    color: #2a3a40;
+}
+.brackets {
+    margin: 0 auto;
+    width: 900px;
+    text-align: center;
+}
+.brackets h1 {
+    font-size: 5em;
+}
+.brackets p {
+    font-size: 24px;
+}
+.brackets h3 {
+    margin: 55px 0 100px 0;
+}
+.title {
+    background-color: #edb47c;
+}
+.title h1 {
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    padding: 120px 0 75px 0;
+}
+.title p {
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+    padding-bottom: 85px;
+}
+.form__inner {
+    background-color: #edb47c;
+    text-align: center;
+}
+.form__inner input {
+    padding-left: 40px;
+    font-size: 20px;
+    border-radius: 30px;
+    width: 550px;
+    height: 58px;
+    border: none;
+}
+
+.form__inner button {
+    background-color: #54514e;
+    width: 230px; 
+    height: 60px;
+    border-radius: 30px;
+    position: relative;
+    left: -75px;
+    margin-bottom: 300px;
+    border: none;
+}
+.form__inner a {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.container-6 {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    background-color: #837870;
+    padding: 250px 0 250px 0;
+}
+.container-6 h2 {
+    font-weight: lighter;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-bottom: 35px;
+}
+.container-6 ul, a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.container-6 li, a {
+    padding: 0 0 15px;
+}
+.media {
+    max-width: 450px;
+}
+.media p {
+    padding-bottom: 35px;
+    font-weight: lighter;
+}
+.media img {
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
